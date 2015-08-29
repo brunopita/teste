@@ -1,0 +1,15 @@
+
+#menu{
+	margin-top:50px;
+	margin-left:100px;
+}
+.menuhorizontal{
+	list-style:none;
+}
+.menuhorizontal li{
+	display:block;
+	height:50px;
+	width:125px;
+	text-align:center;
+	float:left;
+}

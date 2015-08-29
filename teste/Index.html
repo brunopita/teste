@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<meta charset="UTF-8"/>
+		<title>Site de Vendas</title>
+		<link rel="stylesheet" type="text/css" href="index.css">
+		<link rel="stylesheet" type="text/css" href="fonte.css">
+	</head>
+	<body>
+		<div id="interface">
+			<div id="menu">
+				<ul class="menuhorizontal">
+					<li>Home</li>
+					<li>Alterar</li>
+					<li>Deletar</li>
+					<li>Cadastrar</li>
+				</ul>
+			</div>
+			<h1>Formulario de cadastro de produtos</h1>
+            <div id="formularioCadastro">
+                <form action="index.php" method="post">
+                    Nome:
+                    <input type="text" id="nome"/>
+                    <br/>
+                    Descrilção:
+                    <input type="text" id="descricao"/>
+                    <br/>
+                    <select name="categoria" onclick="carrega()">
+
+                    </select>
+                    <input id="enviar" type="submit" value="Enviar">
+                </form>
+            </div>
+		</div>		
+	</body>
+</html>
